@@ -18,7 +18,7 @@ const Project = () => {
   const groupedProjects = groupProjects(projects); // Agrupa los proyectos
 
   return (
-    <section id="projects" tw="bg-white py-10 h-[100vh]">
+    <section id="projects" tw="bg-white w-full h-[100vh] p-4 flex justify-center flex-col items-center">
       <h2 tw="text-center text-blue_vibrat text-5xl font-bold hover:text-hover_blue mb-10">¡Descubre mis creaciones!</h2>
       <div tw="container mx-auto my-5">
         <Carousel controls indicators>
