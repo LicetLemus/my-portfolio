@@ -16,8 +16,8 @@ header {
     z-index: 0;
 
     nav, 
-    .content, .hero_image { // Esta clase se puede agregar a un div que contenga todo el contenido
-        position: relative; // Asegúrate de que tenga posición relativa
-        z-index: 1; // Debe ser mayor que el z-index del pseudo-elemento
+    .content, .hero_image {
+        position: relative; 
+        z-index: 1; 
     }
 }
