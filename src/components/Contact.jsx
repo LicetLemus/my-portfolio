@@ -11,14 +11,14 @@ const Contact = () => {
         <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue">
           ¡Conectemos!
         </h2>
-        <p className="text-center text-[#333333] text-[20px]">
-          Siempre estoy abierta a nuevas ideas y oportunidades de colaboración.
-          ¿Tienes un proyecto en mente o simplemente deseas charlar? ¡Házmelo
-          saber! Estoy aquí para escuchar y construir juntos.”
+        <p className="text-center font-light text-[#333333] text-[20px]">
+          Siempre estoy abierta a nuevas ideas y oportunidades de colaboración. <br/>
+          ¿Tienes un proyecto en mente o simplemente deseas charlar? <br/>
+          ¡Házmelo saber! Estoy aquí para escuchar y construir juntos.”
         </p>
 
         <div className="flex flex-col justify-center items-center">
-          <p className="text-lg text-[#333333]">
+          <p className="text-[20px] font-light text-[#333333]">
             Escríbeme a mi correo electrónico:{" "}
             <span className="font-semibold text-vibrat">
               licetlemusq@gmail.com
@@ -32,7 +32,7 @@ const Contact = () => {
           >
             <FaEnvelope className="m-2 text-4xl text-violet mx-auto" />
           </a>
-          <p className="text-lg">O un mensaje directo a mis redes sociales:</p>
+          <p className="text-[20px] font-light text-[#333333]">O un mensaje directo a mis redes sociales:</p>
           <div className="flex justify-center space-x-6 mt-4">
             <a
               href="https://www.facebook.com/yourprofile"
