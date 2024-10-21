@@ -25,14 +25,14 @@ const Header = () => {
             </a>
           </div>
         </nav>
-        <div className="flex justify-center items-center mt-20">
+        <div className="flex justify-center items-center mt-20 h-full">
           <div className="hero_image">
             <img src={heroImage} alt="Women working on a computer" className="w-[587px] h-auto"/>
           </div>
-          <div className="content flex flex-col justify-center items-center text-left w-[70%] h-auto p-8 ml-12">
-            <h1 className="text-white text-7xl font-bold">¡Bienvenido a mi <span className="hover:text-hover_text_white">mundo digital!</span></h1>
-            <p className="text-white  text-[20px] mt-4 font-light">Estoy emocionada de compartir mis proyectos y mi viaje en el desarrollo web. ¡Explora y déjate inspirar!</p>
-            <button className="mt-8 bg-bg_button text-violet px-6 py-3 rounded-lg font-semibold hover:bg-hover_blue hover:text-white transition-colors">
+          <div className="content flex flex-col justify-center items-left text-left w-[70%] h-auto p-8 ml-12">
+            <h1 className="text-white text-7xl font-bold">¡Bienvenido a mi <br /><span className="hover:text-hover_text_white">mundo digital!</span></h1>
+            <p className="text-white  text-[20px] mt-4 font-light">Estoy emocionada de compartir mis proyectos y mi <br /> viaje en el desarrollo web. ¡Explora y déjate inspirar!</p>
+            <button className="mt-8 bg-bg_button text-violet px-6 py-3 rounded-lg w-[250px] font-semibold hover:bg-hover_blue hover:text-white transition-colors">
               ¡Conóceme más!
             </button>
           </div>
