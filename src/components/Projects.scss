@@ -1,7 +1,4 @@
-
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: #5D6D7E; // Cambia esto al color que desees
-    border-radius: 50%; // Opcional: para redondear las flechas
+button.slick-prev:before, button.slick-next:before {
+    color: rgba(0, 0, 0, 0.631);
+    border-radius: 50%;  
 }
