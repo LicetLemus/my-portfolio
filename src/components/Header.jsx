@@ -7,7 +7,7 @@ import logo from "../assets/logo.png"; // Asegúrate de que la ruta sea correcta
 
 const Header = () => {
   return (
-    <header className="bg-red py-10 h-[100vh]">
+    <header className="bg-red py-10 h-[100vh] w-[100vw]">
       <div className="container mx-auto text-center">
         <nav className="flex justify-between items-center mb-8 mr-10">
           <div className="ml-10">

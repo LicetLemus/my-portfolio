@@ -2,12 +2,14 @@
 @import '../styles/variables';
 
 header {
+    position: relative;
+
     &::before {
     content: "";
     position: absolute;
     bottom: 0;
     left: 35%;
-    width: 100vw;
+    width: 65%;
     height: 100vh;
     top: 0;
     background: linear-gradient(180deg, rgba(0, 127, 255, 0.7) 0%, rgba(138, 43, 226, 0.7) 100%);
