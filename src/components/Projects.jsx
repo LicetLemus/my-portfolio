@@ -32,7 +32,7 @@ const Project = () => {
   return (
     <section
       id="projects"
-      className="bg-white w-full h-[100vh] p-4 flex justify-center flex-col items-center"
+      className="bg-white w-full p-4 flex justify-center flex-col items-center"
     >
       <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue mb-10">
         ¡Descubre mis creaciones!

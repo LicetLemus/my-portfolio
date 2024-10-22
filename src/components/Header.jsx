@@ -5,7 +5,7 @@ import Navbar from "./Navbar.jsx";
 
 const Header = () => {
   return (
-    <header className="bg-red h-screen w-full">
+    <header className="bg-red w-full">
       <div className="container mx-auto text-center">
         {/* Componente Navbar */}
         <Navbar />

@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-white w-full h-[100vh] p-4 flex justify-center flex-col items-center"
+      className="bg-white w-full p-4 flex justify-center flex-col items-center"
     >
-      <div className="container mx-auto flex flex-col justify-center items-center gap-10 h-[100vh]">
+      <div className="container mx-auto flex flex-col justify-center items-center gap-10">
         <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue">
           ¡Conectemos!
         </h2>
