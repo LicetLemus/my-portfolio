@@ -11,7 +11,7 @@ const About = () => {
         alt="avatar"
         className="mx-auto mb-6 mt-6 w-32 h-32 object-cover rounded-full"
       ></img>
-      <div className="flex justify-between flex-wrap w-[761px] font-light">
+      <div className="container_parrafo flex justify-between flex-wrap w-[761px] font-light">
         <p className="me-3 text-lg text-text_color_par mb-6 ">
           Soy Licet Lemus, una apasionada desarrolladora web en constante
           evolución. Con una firme creencia en la innovación, me especializo en
