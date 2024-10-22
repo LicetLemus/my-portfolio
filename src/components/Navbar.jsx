@@ -3,11 +3,10 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
 
 const navigation = [
-  { name: "Inicio", href: "#", current: true },
   { name: "Acerca de mí", href: "#about", current: false },
   { name: "Mis proyectos", href: "#projects", current: false },
   { name: "Hablemos", href: "#contact", current: false },
@@ -54,7 +53,7 @@ export default function Navbar() {
                     aria-current={item.current ? "page" : undefined}
                     className={classNames(
 											"text-white hover:text-violet",
-                      "rounded-md px-3 py-2 text-xl font-light"
+                      "rounded-md px-3 py-2 text-xl font-light transition duration-300"
                     )}
                   >
                     {item.name}

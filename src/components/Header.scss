@@ -17,7 +17,7 @@ header {
     z-index: 0;
 
     nav, 
-    .content, .hero_image {
+    .content, .hero_image, .btn_primary {
         position: relative; 
         z-index: 1; 
     }
@@ -60,7 +60,7 @@ header {
             -webkit-box-orient: vertical;
         }
 
-        .content button {
+        .btn_primary {
             width: auto;
             font-size: 1rem;
         }
