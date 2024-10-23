@@ -14,6 +14,7 @@ const projects = [
       title: 'Fleet Management API',
       description: 'Rhonda prided herself on always taking the path less traveled. She\'d decided to do this at an early',
       link: '#',
+      github:'#',
       image: phoneImage
     },
     {
@@ -21,6 +22,7 @@ const projects = [
       title: 'Fleet Management API',
       description: 'Rhonda prided herself on always taking the path less traveled. She\'d decided to do this at an early',
       link: '#',
+      github:'#',
       image: techImage
     },
     {
@@ -28,6 +30,7 @@ const projects = [
       title: 'Fleet Management API',
       description: 'Rhonda prided herself on always taking the path less traveled. She\'d decided to do this at an early',
       link: '#',
+      github:'#',
       image: phoneImage
     },
     {
@@ -35,6 +38,7 @@ const projects = [
       title: 'Fleet Management API',
       description: 'Rhonda prided herself on always taking the path less traveled. She\'d decided to do this at an early',
       link: '#',
+      github:'#',
       image: phoneImage
     },
 ];
