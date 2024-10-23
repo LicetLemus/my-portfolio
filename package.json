@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/LicetLemus/my-portfolio",
+  "homepage": "https://LicetLemus.github.io/my-portfolio",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@headlessui/react": "^2.1.10",
