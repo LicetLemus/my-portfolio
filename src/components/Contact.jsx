@@ -9,7 +9,7 @@ const Contact = () => {
       className="bg-white w-full p-4 flex justify-center flex-col items-center my-20"
     >
       <div className="container mx-auto flex flex-col justify-center items-center gap-10">
-        <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue">
+        <h2 className="text-center text-vibrat my-10 text-5xl font-bold hover:text-hover_blue">
           ¡Conectemos!
         </h2>
         <p className="text-center font-light text-[#333333] text-[20px]">

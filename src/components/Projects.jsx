@@ -15,7 +15,7 @@ const Project = () => {
       id="projects"
       className="bg-white w-full px-10 my-20 flex justify-center flex-col items-center"
     >
-      <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue mb-10">
+      <h2 className="text-center text-vibrat my-10 text-5xl font-bold hover:text-hover_blue mb-10">
         ¡Descubre mis creaciones!
       </h2>
       <div className="container mx-auto my-5">

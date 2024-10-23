@@ -5,7 +5,7 @@ import profile from "../assets/profile.png";
 const About = () => {
   return (
     <section id="about" className="bg-white w-full px-10 mt-20 flex justify-center flex-col items-center">
-      <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue">¿Quién soy?</h2>
+      <h2 className="text-center text-vibrat my-10 text-5xl font-bold hover:text-hover_blue">¿Quién soy?</h2>
       <img id="img_about"
         src={profile}
         alt="avatar"
