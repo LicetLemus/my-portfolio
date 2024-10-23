@@ -37,11 +37,11 @@ export default function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-between">
-            <div className="flex flex-shrink-0 items-center">
+            <div className="flex flex-shrink-0 w-[12rem] pt-10 items-center">
               <img
                 alt="Your Company"
                 src={logo}
-                className="icon-color h-12 w-auto"
+                className="icon-color h-auto w-full"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -53,7 +53,7 @@ export default function Navbar() {
                     aria-current={item.current ? "page" : undefined}
                     className={classNames(
 											"text-white hover:text-violet",
-                      "rounded-md px-3 py-2 text-xl font-light transition duration-300"
+                      "rounded-md px-3 py-2 text-base font-light transition duration-300"
                     )}
                   >
                     {item.name}

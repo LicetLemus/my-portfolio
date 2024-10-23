@@ -22,6 +22,10 @@ header {
         z-index: 1; 
     }
 
+    .content h1 {
+        text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+
     @media (max-width: 768px) {
         background:linear-gradient(180deg, rgba(0, 127, 255, 0.7) 0%, rgba(138, 43, 226, 0.7) 100%);
 
@@ -29,7 +33,7 @@ header {
             display: none;
         }
 
-        nav .text-xl {
+        nav .text-base {
             font-size: 0.9rem;
         }
 
@@ -53,7 +57,6 @@ header {
         .content p {
             padding-inline: 1rem;
             text-align: center;
-            font-size: 1rem;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             overflow: hidden;
