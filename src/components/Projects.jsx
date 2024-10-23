@@ -50,7 +50,7 @@ const Project = () => {
               <div
                 className="content flex justify-center items-stretch"
               >
-                <div className="bg-white shadow-md shadow-hover_blue rounded-lg overflow-hidden w-full max-w-[300px]">
+                <div className="bg-white shadow-md shadow-hover_blue rounded-lg overflow-hidden w-full max-w-[300px] transition-shadow duration-300 hover:shadow-xl">
                   <img
                     src={project.image}
                     className="w-full h-48 object-cover"
