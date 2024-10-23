@@ -46,9 +46,8 @@ const Project = () => {
           className="mySwiper"
         >
           {projects.map((project) => (
-            <SwiperSlide className="h-[500px]">
+            <SwiperSlide key={project.id} className="h-[500px]">
               <div
-                key={project.id}
                 className="content flex justify-center items-stretch"
               >
                 <div className="bg-white shadow-md shadow-hover_blue rounded-lg overflow-hidden w-full max-w-[300px]">
