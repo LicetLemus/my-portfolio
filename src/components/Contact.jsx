@@ -1,11 +1,12 @@
 import React from "react";
 import { FaEnvelope, FaFacebook, FaTwitter } from "react-icons/fa";
+import './Contact.scss'
 
 const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-white w-full p-4 flex justify-center flex-col items-center"
+      className="bg-white w-full p-4 flex justify-center flex-col items-center my-20"
     >
       <div className="container mx-auto flex flex-col justify-center items-center gap-10">
         <h2 className="text-center text-vibrat text-5xl font-bold hover:text-hover_blue">
