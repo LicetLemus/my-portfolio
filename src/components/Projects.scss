@@ -1,7 +1,11 @@
 
+#projects{
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: #5D6D7E; // Cambia esto al color que desees
-    border-radius: 50%; // Opcional: para redondear las flechas
+    @media (max-width: 768px) {
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
 }

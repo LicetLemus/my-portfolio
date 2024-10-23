@@ -1,40 +1,40 @@
-// src/components/Header.js
-import React from 'react';
-import "./Header.scss"; // Asegúrate de que este archivo esté correctamente importado
-import heroImage from "../assets/women.png"; // Asegúrate de que la ruta sea correcta
-import logo from "../assets/logo.png"; // Asegúrate de que la ruta sea correcta
-
+import React from "react";
+import "./Header.scss";
+import heroImage from "../assets/women.png";
+import Navbar from "./Navbar.jsx";
 
 const Header = () => {
   return (
-    <header className="bg-red py-10 h-[100vh]">
+    <header className="bg-red w-full">
       <div className="container mx-auto text-center">
-        <nav className="flex justify-between items-center mb-8 mr-10">
-          <div className="ml-10">
-            <img src={logo} alt="Logo de Licet Lemus" className="w-56 h-auto object-contain"/>
+        {/* Componente Navbar */}
+        <Navbar />
+        <div className="flex  justify-around items-center py-10 h-full gap-10">
+          <div className="hero_image text-violet flex justify-center mb-8 md:mb-0">
+            <img
+              src={heroImage}
+              alt="Women working on a computer"
+              className="w-full md:w-[30rem] h-auto center"
+            />
           </div>
-          <div className="flex space-x-6 font-regular">
-            <a href="#about" className="text-white text-[20px] hover:text-violet transition-colors no-underline">
-              Acerca de mí
-            </a>
-            <a href="#projects" className="text-white text-[20px] hover:text-violet transition-colors no-underline">
-              Mis Proyectos
-            </a>
-            <a href="#contact" className="text-white text-[20px] hover:text-violet transition-colors no-underline">
-              ¡Conectemos!
-            </a>
-          </div>
-        </nav>
-        <div className="flex justify-center items-center mt-20">
-          <div className="hero_image">
-            <img src={heroImage} alt="Women working on a computer" className="w-[587px] h-auto"/>
-          </div>
-          <div className="content flex flex-col justify-center items-center text-left w-[70%] h-auto p-8 ml-12">
-            <h1 className="text-white text-7xl font-bold">¡Bienvenido a mi <span className="hover:text-hover_text_white">mundo digital!</span></h1>
-            <p className="text-white  text-[20px] mt-4 font-light">Estoy emocionada de compartir mis proyectos y mi viaje en el desarrollo web. ¡Explora y déjate inspirar!</p>
-            <button className="mt-8 bg-bg_button text-violet px-6 py-3 rounded-lg font-semibold hover:bg-hover_blue hover:text-white transition-colors">
-              ¡Conóceme más!
-            </button>
+          <div className="flex flex-col justify-center items-center">
+            <div className="content text-left w-full h-auto p-10">
+              <h1 className="text-white text-4xl md:text-7xl font-bold">
+                ¡Bienvenido a mi <br />
+                <span className="hover:text-hover_text_white">
+                  mundo digital!
+                </span>
+              </h1>
+              <p className="text-white text-base md:text-[1.25rem] mt-4 font-light">
+                Estoy emocionada de compartir mis proyectos y mi <br />
+                viaje en el desarrollo web. ¡Explora y déjate inspirar!
+              </p>
+            </div>
+            <div className="btn_primary mt-8 bg-bg_button shadow-lg transition-transform transform hover:translate-y-1 hover:shadow-md text-violet p-3 rounded-lg w-full md:w-[10rem] font-semibold">
+              <a href="#about">
+                ¡Conóceme más!
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -42,6 +42,4 @@ const Header = () => {
   );
 };
 
-
 export default Header;
-

@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-// @import 'variables';
 
-
-// * {
-//     padding: 0px;
-//     margin: 0px;
-// }
-
-// body {
-//     font-family: "Poppins", sans-serif;
-//     background: white;
-// }
+html {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth; /* Habilita el desplazamiento suave para el navegador */
+}

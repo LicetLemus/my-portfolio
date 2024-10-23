@@ -5,8 +5,6 @@ import App from './App.js'
 // Import your SCSS file here
 import './styles/styles.scss';
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
