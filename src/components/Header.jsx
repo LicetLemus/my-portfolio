@@ -14,14 +14,14 @@ const Header = () => {
             <img
               src={heroImage}
               alt="Women working on a computer"
-              className="w-full md:w-[30rem] h-auto center"
+              className="w-full md:w-[30rem] h-auto hover:animate-shake transition-transform duration-500 ease-in-out"
             />
           </div>
           <div className="flex flex-col justify-center items-center">
             <div className="content text-left w-full h-auto">
               <h1 className="text-white text-4xl md:text-7xl font-bold textShadow">
                 ¡Bienvenido a mi <br />
-                <span className="hover:text-hover_text_white">
+                <span className="hover:text-shadow-lg hover:text-[#FFD700] transition-all duration-300">
                   mundo digital!
                 </span>
               </h1>
