@@ -18,7 +18,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className="bg-transparent w-full">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -37,11 +37,11 @@ export default function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-between">
-            <div className="flex flex-shrink-0 items-center">
+            <div className="flex flex-shrink-0 w-[12rem] pt-10 items-center">
               <img
                 alt="Your Company"
                 src={logo}
-                className="icon-color h-12 w-auto"
+                className="icon-color h-auto w-full"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -52,8 +52,8 @@ export default function Navbar() {
                     href={item.href}
                     aria-current={item.current ? "page" : undefined}
                     className={classNames(
-											"text-white hover:text-violet",
-                      "rounded-md px-3 py-2 text-xl font-light transition duration-300"
+											"relative inline-block text-white before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-yellow-400 before:scale-x-0 hover:before:scale-x-100 before:origin-left transition-transform duration-300",
+                      "rounded-md px-3 py-2 text-base font-light"
                     )}
                   >
                     {item.name}
@@ -76,8 +76,8 @@ export default function Navbar() {
               className={classNames(
                 item.current
                   ? "text-violet"
-                  : "text-white hover:text-violet",
-                "block rounded-md px-3 py-2 text-base font-medium"
+                  : "text-white hover:text-yellow-400",
+                "block rounded-md px-3 py-2 text-base font-light"
               )}
             >
               {item.name}

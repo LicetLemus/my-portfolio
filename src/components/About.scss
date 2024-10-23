@@ -1,5 +1,5 @@
 #img_about {
-    border: 3px solid rgba(0, 127, 255, 0.7);
+    border: 1px solid rgba(0, 127, 255, 0.7);
 }
 
 
@@ -9,7 +9,6 @@
         
         h2 {
             font-size: 2rem;
-            margin-bottom: 2rem;
         }
 
         img {
@@ -24,7 +23,6 @@
         p {
             font-size: 1rem;
             margin-inline: 0px;
-            text-align: justify;
         }
 
         .container_parrafo {
@@ -36,4 +34,27 @@
             padding-inline: 2rem;
         }
     }
+}
+
+.highlight-text {
+    position: relative;
+    z-index: 1;
+}
+
+.highlight-text::before {
+    content: '';
+    position: absolute;
+    z-index: 2; /* Aseguramos que esté por encima del texto */
+    bottom: 0;  /* Posicionamos el resaltador justo encima del texto */
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: #FFD700; /* Color del resaltador */
+    mix-blend-mode: multiply; /* Se asegura que el resaltado no opaque el texto */
+    transition: width 0.3s ease-in-out;
+    width: 0;  /* Inicialmente, el ancho es 0 */
+}
+
+.highlight-text:hover::before {
+    width: 100%;  /* Al pasar el cursor, se expande por completo */
 }
