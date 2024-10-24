@@ -9,9 +9,11 @@ module.exports = {
         vibrat: "rgba(0, 127, 255, 0.7)",
         violet: "rgba(138, 43, 226, 0.7)",
         bg_button: "#FFD700",
-        hover_blue: "#A3D5FF",
+        text_button: "#8A2BE2",
+        hover_blue: "rgba(0, 127, 255, 0.9)",
         hover_text_white: "#F2F2F2",
         text_color_par: "#5D6D7E",
+        bg_pages:"white"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

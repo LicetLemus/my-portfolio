@@ -14,7 +14,7 @@ const Project = () => {
   return (
     <section
       id="projects"
-      className="bg-white w-full px-10 my-20 flex justify-center flex-col items-center"
+      className="bg-bg_pages w-full px-10 my-20 flex justify-center flex-col items-center"
     >
       <h2 className="text-center text-vibrat my-10 text-5xl font-bold hover:text-hover_blue mb-10">
         ¡Descubre mis creaciones!

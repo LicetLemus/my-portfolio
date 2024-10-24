@@ -15,7 +15,7 @@ const Footer = () => {
         <p className="mt-10">
           “La creatividad es la inteligencia divirtiéndose.” – Albert Einstein
         </p>
-        <p className="mt-20 text-violet">
+        <p className="mt-20 text-[#333333]">
           &copy; 2024 Licet Lemus. Todos los derechos reservados.
         </p>
 
