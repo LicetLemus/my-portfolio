@@ -28,7 +28,7 @@ header {
 
     .custom-outline {
         color: #0000;
-        -webkit-text-stroke: 1.5px #FFFFFF; /* Define el contorno */
+        -webkit-text-stroke: 1.5px #ffffff; /* Define el contorno */
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1); /* Simula una sombra */
     }
 
@@ -61,12 +61,13 @@ header {
         }
 
         .content p {
+            font-size: 1rem;
             padding-inline: 1rem;
             text-align: center;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            overflow: hidden;
-            -webkit-box-orient: vertical;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 2;
+            // overflow: hidden;
+            // -webkit-box-orient: vertical;
         }
 
         .btn_primary {

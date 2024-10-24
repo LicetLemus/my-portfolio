@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-white w-full px-10 flex justify-center flex-col items-center my-20"
+      className="bg-bg_pages w-full px-10 flex justify-center flex-col items-center my-20"
     >
       <div className="container mx-auto flex flex-col justify-center items-center">
         <h2 className="text-center text-vibrat my-10 text-5xl font-bold hover:text-hover_blue">

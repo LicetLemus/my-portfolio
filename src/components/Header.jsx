@@ -19,7 +19,7 @@ const Header = () => {
 
 
   return (
-    <header className="bg-red w-full">
+    <header className="bg-bg_pages w-full">
       <div className="container mx-auto text-center">
         {/* Componente Navbar */}
         <Navbar />
@@ -35,7 +35,7 @@ const Header = () => {
             <div className="content text-left w-full h-auto">
               <h1 className="text-white text-4xl md:text-7xl font-bold">
                 ¡Bienvenido a mi <br />
-                <span className="hover:text-[#FFD700] transition-all duration-300 custom-outline" onMouseOver={launchConfetti} >
+                <span className="hover:text-shadow-lg hover:text-[#FFD700] transition-all duration-300 custom-outline" onMouseOver={launchConfetti} >
                   mundo digital!
                 </span>
               </h1>
@@ -44,7 +44,7 @@ const Header = () => {
                 viaje en el desarrollo web. ¡Explora y déjate inspirar!
               </p>
             </div>
-            <div className="btn_primary mt-8 bg-bg_button shadow-lg transition-transform transform hover:translate-y-1 hover:shadow-md text-violet p-3 rounded-lg w-full md:w-[12rem] font-semibold">
+            <div className="btn_primary mt-8 bg-bg_button shadow-lg transition-transform transform hover:translate-y-1 hover:shadow-md text-text_button p-3 rounded-lg w-full md:w-[12rem] font-semibold">
               <a href="#about">
                 ¡Conóceme más!
               </a>
