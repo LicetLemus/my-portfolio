@@ -26,6 +26,12 @@ header {
         text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
     }
 
+    .custom-outline {
+        color: #0000;
+        -webkit-text-stroke: 1.5px #FFFFFF; /* Define el contorno */
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1); /* Simula una sombra */
+    }
+
     @media (max-width: 768px) {
         background:linear-gradient(180deg, rgba(0, 127, 255, 0.7) 0%, rgba(138, 43, 226, 0.7) 100%);
 

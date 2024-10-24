@@ -1,9 +1,23 @@
 import React from "react";
+import confetti from 'canvas-confetti'
 import "./Header.scss";
 import heroImage from "../assets/women.png";
 import Navbar from "./Navbar.jsx";
 
 const Header = () => {
+
+  const launchConfetti = () => {
+
+
+    confetti({
+      particleCount: 150,
+      angle: 90,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
+  };
+
+
   return (
     <header className="bg-red w-full">
       <div className="container mx-auto text-center">
@@ -19,9 +33,9 @@ const Header = () => {
           </div>
           <div className="flex flex-col justify-center items-center">
             <div className="content text-left w-full h-auto">
-              <h1 className="text-white text-4xl md:text-7xl font-bold textShadow">
+              <h1 className="text-white text-4xl md:text-7xl font-bold">
                 ¡Bienvenido a mi <br />
-                <span className="hover:text-shadow-lg hover:text-[#FFD700] transition-all duration-300">
+                <span className="hover:text-[#FFD700] transition-all duration-300 custom-outline" onMouseOver={launchConfetti} >
                   mundo digital!
                 </span>
               </h1>
