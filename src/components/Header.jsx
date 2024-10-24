@@ -33,9 +33,15 @@ const Header = () => {
           </div>
           <div className="flex flex-col justify-center items-center">
             <div className="content text-left w-full h-auto">
+              <h2 className="text-white text-base font-pacific font-regular transform -rotate-6 origin-left">
+                <span role="img" aria-label="wave" className="mr-2">
+                  👋
+                </span>
+                Hola, Soy <span className="font-bold text-white">Licet</span>
+              </h2>
               <h1 className="text-white text-4xl md:text-7xl font-bold">
                 ¡Bienvenido a mi <br />
-                <span className="hover:text-shadow-lg hover:text-[#FFD700] transition-all duration-300 custom-outline" onMouseOver={launchConfetti} >
+                <span className="hover:text-shadow-lg hover:text-bg_button transition-all duration-300 custom-outline" onMouseOver={launchConfetti} >
                   mundo digital!
                 </span>
               </h1>

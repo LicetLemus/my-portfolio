@@ -17,6 +17,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        pacific:["Marck Script"]
       },
       fontWeight: {
         bold: "bold",
