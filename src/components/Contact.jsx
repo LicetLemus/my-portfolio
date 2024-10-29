@@ -1,6 +1,6 @@
 import React from "react";
-import { FaEnvelope, FaFacebook, FaTwitter } from "react-icons/fa";
-import './Contact.scss'
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
+import "./Contact.scss";
 
 const Contact = () => {
   return (
@@ -13,43 +13,43 @@ const Contact = () => {
           ¡Conectemos!
         </h2>
         <p className="text-center font-light text-[#333333] text-base mb-10">
-          Siempre estoy abierta a nuevas ideas y oportunidades de colaboración. <br/>
-          ¿Tienes un proyecto en mente o simplemente deseas charlar? <br/>
+          Siempre estoy abierta a nuevas ideas y oportunidades de colaboración.{" "}
+          <br />
+          ¿Tienes un proyecto en mente o simplemente deseas charlar? <br />
           ¡Házmelo saber! Estoy aquí para escuchar y construir juntos.”
         </p>
 
         <div className="flex flex-col justify-center items-center">
           <p className="text-base font-light text-[#333333]">
             Escríbeme a mi correo electrónico:{" "}
-            <span className="font-semibold text-vibrat hover:text-violet">
+            <a
+              className="font-semibold text-vibrat hover:text-violet"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=licetlemusq@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               licetlemusq@gmail.com
-            </span>
+            </a>
           </p>
           <a
-            href="https://www.gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=licetlemusq@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-4xl text-blue-600 hover:text-blue-800 transition-colors"
           >
             <FaEnvelope className="m-2 text-4xl text-black hover:text-violet mx-auto" />
           </a>
-          <p className="text-base font-light text-[#333333]">O un mensaje directo a mis redes sociales:</p>
+          <p className="text-base font-light text-[#333333]">
+            O un mensaje directo a través de mi LinkedIn:
+          </p>
           <div className="flex justify-center space-x-6 mt-4">
             <a
-              href="https://www.facebook.com/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-4xl text-blue-600 hover:text-blue-800 transition-colors"
-            >
-              <FaFacebook className="m-2 text-4xl text-black hover:text-violet mx-auto"/>
-            </a>
-            <a
-              href="https://twitter.com/yourprofile"
+              href="https://www.linkedin.com/in/licet-lemus-developer"
               target="_blank"
               rel="noopener noreferrer"
               className="text-4xl text-blue-400 transition-colors"
             >
-              <FaTwitter className="m-2 text-4xl text-black hover:text-violet mx-auto" />
+              <FaLinkedin className="m-2 text-4xl text-black hover:text-violet mx-auto" />
             </a>
           </div>
         </div>
