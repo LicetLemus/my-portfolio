@@ -74,6 +74,8 @@ const Project = () => {
                       </a>
                       <a
                         href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-block bg-bg_button text-violet font-semibold py-2 px-4 rounded-lg shadow-lg transition-transform transform hover:translate-y-1 hover:shadow-md no-underline transition-colors"
                       >
                         Ver el proyecto
